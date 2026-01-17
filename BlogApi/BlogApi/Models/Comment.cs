@@ -1,0 +1,11 @@
+﻿namespace BlogApi.Models
+{
+    public class Comment
+    {
+        public long Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string Text { get; set; } = string.Empty; // Mapped from 'comment' in Java
+        public long PostId { get; set; }
+    }
+}

@@ -1,0 +1,101 @@
+# Visual Studio / .NET generic
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.vspx
+*.ncb
+*.cache
+*.ilk
+*.log
+*.tlog
+*.obj/
+obj/
+bin/
+[Bb]in/
+.reSharper*/
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/*
+
+# Build outputs
+dist/
+publish/
+artifacts/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.lock.json
+
+# ASP.NET / IIS
+iisexpress/
+*.vspscc
+*.userosscache
+
+# Entity Framework / Local DB
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Rider / JetBrains caches
+.idea/
+*.sln.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Secrets and local overrides
+secrets.json
+appsettings.*.Local.json
+*.Local.json
+
+# Swagger / OpenAPI generated files (if you generate in repo)
+openapi/
+swagger/
+openapi.json
+openapi.yaml
+
+# Test result and coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+coverage*.xml
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.docker/
+
+# Misc
+.vscode/
+node_modules/
+*.pem
+*.key
+*.pfx
